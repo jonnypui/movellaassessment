@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: assessment-image
-        imagePullPolicy: Never
+        image: jawwni/assessment-image:thirdtry
+        #imagePullPolicy: Never
         ports:
         - containerPort: 80
 ---
